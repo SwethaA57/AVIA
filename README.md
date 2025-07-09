@@ -12,7 +12,22 @@ This report section can be viewed by the teachers as well thus letting the teach
 
 
 ## Limitations
-
+* **Limited Feedback Accuracy** :Feedback on weak topics may not always reflect actual
+conceptual gaps.
+* **No Real-time Interaction** :Lacks live chat or instant help for student doubts during quiz
+attempts.
+* **Basic Text Input Only** :Currently supports only text-based doubts; no image/audio input
+implemented.
+* **No Adaptive Learning** :The system doesn’t personalize quiz difficulty based on past
+student behavior.
+* **Subject Input Sensitivity** :Student and teacher inputs (e.g., subject names) need to be
+precise.
+* **Backend Dependency** :Heavy reliance on model processing might cause performance
+delays.
+* **Limited Visual Feedback** :Reports and feedback are mostly text-based, with minimal
+graphical summaries.
+* **Keyword-based Feedback Limitations** :KeyBERT or basic NLP models can extract
+misleading or irrelevant topics.
 
 
 ## Future scope
