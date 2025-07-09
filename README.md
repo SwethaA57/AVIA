@@ -1,6 +1,6 @@
 # AVIA-The AI Classroom Assistant
 
-## Overview
+## Project Overview
 The AI classroom assistant is an inovative tool to help students improve and analyse their performance using AI, providing features like doubt solving, quizzes and assessments and customized feedbacks.
 Simultaneously lets teachers upload content/notes and see the doubts asked by the students and thier quiz reports.
 
