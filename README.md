@@ -60,11 +60,11 @@ pip install -r requirements.txt
 
 
 ### Run the Backend
-cd backend
+cd backend 
 python app.py
 
 
 ### Run the frontend
-cd frontend
+cd frontend 
 streamlit run main.py
 
