@@ -1,4 +1,7 @@
 # AVIA-The AI Classroom Assistant
+**Intel Unnati Industrial training 2025**  
+**Problem statement 4: AI-powered classroom learning assistant**  
+**Team: TriNethra**
 
 ## Project Overview
 The AI classroom assistant is an inovative tool to help students improve and analyse their performance using AI, providing features like doubt solving, quizzes and assessments and customized feedbacks.
@@ -32,6 +35,7 @@ delays.
 
 
 ## Future developments
+* Better higher level AI models for accurate and reliable outputs
 * Audio,image and file format support in addition to text-based doubts
 * Changing quiz difficulty level using past performance of the student
 * A brief description about the topic along with corrected answers of the questions which the student got wrong
@@ -74,3 +78,8 @@ python app5.py
 ```
 streamlit run main5.py
 ```
+
+## Contributors
+Swetha Anil  
+Devika S Nair  
+Sneha Ann Abraham
