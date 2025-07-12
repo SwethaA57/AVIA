@@ -1,4 +1,4 @@
-# === Flask Backend for AI-Powered Learning Assistant ===
+# Flask Backend
 
 from flask import Flask, request, jsonify
 from flask_sqlalchemy import SQLAlchemy
@@ -163,7 +163,7 @@ def submit_doubt():
 @app.route('/get_doubts', methods=['GET'])
 def get_doubts():
     student_id = request.args.get('student_id')
-    subject = request.args.get('subject')  # Add subject filter support
+    subject = request.args.get('subject')  
 
     if not student_id:
         return jsonify({"message": "Student ID missing"}), 400
@@ -202,7 +202,7 @@ def generate_quiz_endpoint():
     quiz = generate_quiz(content_entry.content_text)
     return jsonify(quiz)
 
-# --- Flask backend: Submit Quiz Endpoint ---
+# --- Submit Quiz ---
 from flask import request, jsonify
 from models import db, QuizResult, Student
 import datetime
@@ -250,7 +250,7 @@ def submit_quiz():
 
     return jsonify({"message": "Quiz submitted successfully", "score_percent": score_percent})
 
-# --- quiz_feedback Endpoint ---
+# --- quiz_feedback ---
 from flask import request, jsonify
 from models import QuizResult
 from keybert import KeyBERT
