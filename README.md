@@ -41,7 +41,7 @@ delays.
 * A brief description about the topic along with corrected answers of the questions which the student got wrong
 
 ## demo video
-['DEMO.mp4']
+- [Demo Video](DEMO.mp4)
 
 ## Installation Guide
 Follow these steps to set up the project on your local machine:
