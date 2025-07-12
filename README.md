@@ -47,24 +47,30 @@ cd AIVA
 ```
 
 ### Set Up a Virtual Environment (python version 3.10.9 recommended)
+```
 python -m venv venv
-#### #Activate the virtual environment:
-#### #On Windows
+#Activate the virtual environment:
+#On Windows
 venv\Scripts\activate
-#### #On macOS/Linux
+#On macOS/Linux
 source venv/bin/activate
-
+```
 
 ### Install Dependencies
+```
 pip install -r requirements.txt
+```
+
+### Download AI models
+run _convert_model.py, convert_model1.py, export_onnx_qa.py_
 
 
-### Run the Backend
-cd backend 
-python app.py
+### Run backend
+```
+python app5.py
+```
 
-
-### Run the frontend
-cd frontend 
-streamlit run main.py
-
+### Run frontend
+```
+streamlit run main5.py
+```
