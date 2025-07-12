@@ -1,6 +1,6 @@
 # AVIA-The AI Classroom Assistant
 **Intel Unnati Industrial training 2025**  
-**Problem statement 4: AI-powered classroom learning assistant**  
+**Problem statement 4: AI-powered interactive learning assistant for classrooms**  
 **Team: TriNethra**
 
 ## Project Overview
